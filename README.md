@@ -1,6 +1,6 @@
 # C-and-C-course
 curso "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado" da UDEMY onde foi abordado:
-- Introdução e fundamentos teóricos de C
+- Introdução e fundamentos teóricos de C <p>&#10004; milk<br>&#10004; butter<br>&#10004; bread<p>
 - Tipos de variáveis
 - Condicionais
 - Laços de Repetição
