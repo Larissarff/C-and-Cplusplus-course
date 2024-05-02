@@ -16,11 +16,11 @@ curso "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado" da UDEMY on
 - Estrutura de dados: introdução e buscas &#10004;
 - Estrutura de dados: pilhas &#10004;
 - Estrutura de dados: filas &#10004;
-- Estrutura de dados: ordenação
-- Busca simples e binária
-- Inserir, Remover Elementos em Pilhas
-- Inserir, Remover Elementos em Filas
-- Ordenar Vetores com Bubble Sort
+- Estrutura de dados: ordenação &#10004;
+- Busca simples e binária &#10004;
+- Inserir, Remover Elementos em Pilhas &#10004;
+- Inserir, Remover Elementos em Filas &#10004;
+- Ordenar Vetores com Bubble Sort &#10004;
 - Ordenar Vetores com Insertion Sort
 - Ordenar Vetores com Selection Sort
 - Ordenar Vetores com Quick Sort
