@@ -1,21 +1,21 @@
 # C-and-C-course
 curso "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado" da UDEMY onde foi abordado:
 - Introdução e fundamentos teóricos de C &#10004; 
-- Tipos de variáveis
-- Condicionais
-- Laços de Repetição
-- Vetores, strings e matrizes
-- Introdução e fundamentos teóricos de C++
-- Ponteiros
-- Tipos de funções
-- Funções com parâmetros
-- Alocação dinâmica de memória
-- Structs
-- Leitura e escrita em arquivos externos
-- Conversão de código C para C++
-- Estrutura de dados: introdução e buscas
-- Estrutura de dados: pilhas
-- Estrutura de dados: filas
+- Tipos de variáveis &#10004;
+- Condicionais &#10004;
+- Laços de Repetição &#10004;
+- Vetores, strings e matrizes &#10004;
+- Introdução e fundamentos teóricos de C++ &#10004;
+- Ponteiros &#10004;
+- Tipos de funções &#10004;
+- Funções com parâmetros &#10004;
+- Alocação dinâmica de memória &#10004;
+- Structs &#10004;
+- Leitura e escrita em arquivos externos &#10004;
+- Conversão de código C para C++ &#10004;
+- Estrutura de dados: introdução e buscas &#10004;
+- Estrutura de dados: pilhas &#10004;
+- Estrutura de dados: filas &#10004;
 - Estrutura de dados: ordenação
 - Busca simples e binária
 - Inserir, Remover Elementos em Pilhas
