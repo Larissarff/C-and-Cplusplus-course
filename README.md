@@ -21,7 +21,7 @@ curso "Curso Completo de Linguagem C e C++ - Iniciante Ao Avançado" da UDEMY on
 - Inserir, Remover Elementos em Pilhas &#10004;
 - Inserir, Remover Elementos em Filas &#10004;
 - Ordenar Vetores com Bubble Sort &#10004;
-- Ordenar Vetores com Insertion Sort
+- Ordenar Vetores com Insertion Sort &#10004;
 - Ordenar Vetores com Selection Sort
 - Ordenar Vetores com Quick Sort
 - Ordenar Vetores com Shell Sort
