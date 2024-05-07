@@ -1,0 +1,74 @@
+# Bubble Sort ->
+- Comparação de pares, compara o termo vetor[i] e o vetor[i+1] em busca de ordená-lo.
+- se o termo da frente (vetor[i]) for maior do que o de trás (vetor[i+1]), por exemplo, utiliza-se uma variavel auxiliar para trocar esses valores.
+  auxiliar recebe o valor de vetor[i]
+  vetor[i] recebe o valor de vetor[i+1]
+  vetor[i+1] recebe valor de auxiliar
+fazendo assim a troca e ordenando o vetor.
+
+exemplo de código bubble sort para ordenamento em ordem crescente: 
+          #include <stdio.h>
+          #define TAM 10
+
+          int Exibe_vetor(int vetor[]){ //função para exibir o vetor
+             printf("\n");
+             for(int i = 0; i < TAM - 1; i++){
+                printf(" | %d | ", vetor[i]);
+             }
+          }
+
+          int main(){
+          int vetor[TAM] = {1,7,3,9,5,6,2,8,4,10};
+
+          Exibe_vetor(vetor);
+
+          for(int i = 0; i<TAM; i++){           // i vale 0; enquanto i for menor que TAM; i vai aumentando de 1 em 1. Analisa "a casa da frente", o numero primeiro.
+             for(int j = i + 1; j<TAM; j++){    // j vale 1; enquanto j for menor que TAM; j vai aumentando de 1 em 1. Analisa "a casa de tras", o numero posterior.
+                 int aux;                       // variavel auxiliar para realizar a troca de valores.
+                 if(vetor[i] > vetor[j]){       // Se a posição da frente (vetor[i]) for maior que a posição seguinte (vetor[j])
+                    aux = vetor[i];             // auxiliar recebe o valor de vetor[i]
+                    vetor[i] = vetor[j];        // vetor[i] recebe o valor de vetor[i+1]
+                    vetor[j] = aux;             // vetor[i+1] recebe valor de auxiliar
+                 }
+               }
+           }
+           Exibe_vetor(vetor);
+          }
+
+# Insertion Sort ->
+- Compara um valor com todos os próximos valores do vetor com base em uma condição.
+- Analisa uma posição do vetor vetor[i] e analisa todos os próximos valores de cada posição ate o final do vetor e INSERE o valor de vetor[i] onde deveria por ordenação.
+- utilizando uma variavel i ((iniciando como i = 1) para a posição atual analisada) e uma variavel j ((iniciando como i - 1) que começa analisando de tras pra frente sempre)
+exemplo de código Insertion Sort:
+
+          #include <stdio.h>
+          #define TAM 10
+
+          int Exibe_vetor(int vetor[]){ //função para exibir o vetor
+             printf("\n");
+             for(int i = 0; i <TAM - 1; i++){
+                printf(" | %d | ", vetor[i]);
+             }
+          }
+
+
+          int main(){
+          int vetor[TAM] = {1,7,3,9,5,6,2,8,4,10};
+          Exibe_vetor(vetor);
+
+          for(int i =1; i < TAM; i++){
+          
+            int atual = vetor[i]; //Elemento atual em analise
+            int j = i - 1;  //Elemento anterior ao analisado
+
+            while( (j >= 0) && (atual < vetor[j])){  //Enquanto j for maior ou igual a 0 OU a posição atual for menor que o vetor na posição J
+              vetor[j + 1] = vetor[j];              //Vetor na posição seguinte de j receberá o valor do vetor na posição j
+              j = j - 1;                            // j anda para tras até o fim da fila.
+          }
+          vetor[j + 1] = atual;    //Agora que todos andaram pra frente e o lugar ficou "vago" para o elemento atual, vamos inseri-lo
+         }
+         Exibe_vetor(vetor);
+        }
+
+
+# Selection Sort ->
